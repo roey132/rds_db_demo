@@ -2,3 +2,4 @@ venv
 terraform/.env
 terraform/.terraform.lock.hcl
 terraform/.terraform/
+terraform/terraform.*
