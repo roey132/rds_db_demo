@@ -1,20 +1,18 @@
-INSERT INTO fact_orders (
+INSERT INTO fact_order_items (
     order_id,
-    customer_id,
-    order_status,
-    order_purchase_timestamp,
-    order_approved_at,
-    order_delivered_carrier_date,
-    order_delivered_customer_date,
-    order_estimated_delivery_date
+    order_item_id,
+    product_id,
+    seller_id,
+    shipping_limit_date,
+    price,
+    freight_value
 )
 SELECT DISTINCT
     order_id,
-    customer_id,
-    order_status,
-    order_purchase_timestamp,
-    order_approved_at,
-    order_delivered_carrier_date,
-    order_delivered_customer_date,
-    order_estimated_delivery_date
-FROM stg_orders;
+    order_item_id,
+    product_id,
+    seller_id,
+    shipping_limit_date,
+    price,
+    freight_value
+FROM stg_order_items;
