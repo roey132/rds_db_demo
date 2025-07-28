@@ -17,5 +17,6 @@ backend = get_backend(
 
 migrations = read_migrations("sql/migrations/")
 print(migrations)
+
 with backend.lock():
     backend.apply_migrations(backend.to_apply(migrations))
