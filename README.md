@@ -94,4 +94,4 @@ terraform destroy
 
 ## Notes
 
-The dataset provided in `data/` originates from the Olist e-commerce public dataset. The Terraform configuration opens the RDS instance to the internet for demonstration purposes. In a production setting you should restrict access to specific IPs or networks.
+The dataset provided in `data/` originates from the Olist e-commerce public dataset. The Terraform configuration opens the RDS instance to the internet for demonstration purposes. In a production setting you should restrict access to specific IPs or networks. link to data: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
