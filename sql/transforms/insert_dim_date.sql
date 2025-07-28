@@ -1,5 +1,3 @@
-TRUNCATE TABLE dim_date;
-
 INSERT INTO dim_date (
     date_id,
     year,

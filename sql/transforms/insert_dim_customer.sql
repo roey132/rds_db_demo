@@ -1,5 +1,3 @@
-TRUNCATE TABLE dim_customer;
-
 INSERT INTO dim_customer (
     customer_id,
     customer_unique_id,

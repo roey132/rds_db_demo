@@ -1,5 +1,3 @@
-TRUNCATE TABLE fact_orders;
-
 INSERT INTO fact_orders (
     order_id,
     customer_id,

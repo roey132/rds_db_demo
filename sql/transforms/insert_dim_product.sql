@@ -1,5 +1,3 @@
-TRUNCATE TABLE dim_product;
-
 INSERT INTO dim_product (
     product_id,
     product_category_name,
